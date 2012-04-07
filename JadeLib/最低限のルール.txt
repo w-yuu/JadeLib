@@ -1,0 +1,4 @@
+継承される側（スーパークラス）は仮想デストラクタとする。解放はスーパークラスでもすること。
+必要以上にシングルトンにしない。
+
+Debug.txtを出力したい場合はJade::GameState::GetInstance()->DebugMode = true;にする。
